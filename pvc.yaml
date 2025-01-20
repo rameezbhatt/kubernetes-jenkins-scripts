@@ -8,6 +8,6 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 20Gi
+      storage: 20Gi  # Requesting 20 GiB of storage
   storageClassName: do-block-storage
   volumeMode: Filesystem
